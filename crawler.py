@@ -1,7 +1,6 @@
 import sqlite3
 from get_data import sort_data
 from write_to_csv import write_to_csv
-import csv
 
 
 con = sqlite3.connect("database.db")
@@ -25,7 +24,7 @@ def insert_data(data):
     con.commit()
 
 
-# insert_data(sort_data)
+insert_data(sort_data)
 
 text = input(
     "Writing data to database is done!\nDo you want write db's data to a csv file(Y/n)?\n#> "
