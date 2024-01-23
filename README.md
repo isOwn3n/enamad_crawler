@@ -4,8 +4,8 @@ This is a simple crawler that retrieves data from websites.
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/your-username/crawler.git`
-2. Navigate to the project directory: `cd crawler`
+1. Clone the repository: `git clone https://github.com/isOwn3n/enamad_crawler.git`
+2. Navigate to the project directory: `cd enamad_crawler`
 3. Install the dependencies: `pip install -r requirements.txt`
 
 ## Usage

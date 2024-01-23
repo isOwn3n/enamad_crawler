@@ -39,6 +39,3 @@ def sort_data():
                     work_info[i.split()[0]][2] += " " + work_info[i.split()[0]][3]
                     work_info[i.split()[0]].pop(3)
     return work_info
-
-
-print(sort_data())
