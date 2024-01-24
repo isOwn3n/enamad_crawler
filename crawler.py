@@ -7,6 +7,8 @@ con = sqlite3.connect("database.db")
 
 cur = con.cursor()
 
+cur.execute("drop table if exists buisness")
+
 cur.execute(
     """create table
     if not exists
